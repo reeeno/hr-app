@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .75 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .75 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+}
+
+.Heart
+{
+  height: 40vmin;
+}
+
+.filter-react-blue {
+  filter: invert(83%) sepia(29%) saturate(1829%) hue-rotate(162deg) brightness(100%) contrast(98%);
+}
